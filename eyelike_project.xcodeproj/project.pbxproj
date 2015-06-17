@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              7C1AC273F74C463F9E30ED77 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 593CBAE3B2E548ACA4FC07EB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            66B0C5C828BB436389DD7CAC /* CMake Rules */,
+                     );
+                     dependencies = (
+                            05DF96C5656E42EFADCC0F65 /* PBXTargetDependency */,
+                            2C14BC2347BC47E6B051DFB9 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              FEE8788655034A59B5F70F17 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A44ECAABFD884162B657810C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            7DEFC62E2265447DAC705E32 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+2A94AD3DA16D4BC9A8D83953 /* /Users/Sergey/Downloads/eyeLike-master/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 03C52835A825465097D4436D /* /Users/Sergey/Downloads/eyeLike-master/src/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+9C03663D71AE487D8E3B165E /* /Users/Sergey/Downloads/eyeLike-master/src/constants.h */ = {isa = PBXBuildFile; fileRef = C137CF7B75B44EED941BD4E5 /* /Users/Sergey/Downloads/eyeLike-master/src/constants.h */; settings = { COMPILER_FLAGS = ""; }; };
+B3203106622B4901BF339EAB /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCenter.cpp */ = {isa = PBXBuildFile; fileRef = 0E9074A124BF49798AB7BA51 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCenter.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EE6189C406A447BC97794909 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCenter.h */ = {isa = PBXBuildFile; fileRef = DCF13CAD789545E8BF6F3AD4 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCenter.h */; settings = { COMPILER_FLAGS = ""; }; };
+B70728A8E6B64C719C49A34D /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCorner.cpp */ = {isa = PBXBuildFile; fileRef = 284503F1D7B84534BE4F636D /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCorner.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CF5E3FFC90ED44E38F750BC6 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCorner.h */ = {isa = PBXBuildFile; fileRef = FB326DA3486240F981D8D352 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCorner.h */; settings = { COMPILER_FLAGS = ""; }; };
+97E751F0161948ABA90C3EBA /* /Users/Sergey/Downloads/eyeLike-master/src/helpers.cpp */ = {isa = PBXBuildFile; fileRef = 814DAFADE5F0498DAB6EB6A2 /* /Users/Sergey/Downloads/eyeLike-master/src/helpers.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E091CF97618F4870B0F5333A /* /Users/Sergey/Downloads/eyeLike-master/src/helpers.h */ = {isa = PBXBuildFile; fileRef = 7714A206C8E1424DB3DC0B67 /* /Users/Sergey/Downloads/eyeLike-master/src/helpers.h */; settings = { COMPILER_FLAGS = ""; }; };
+7CB3E7C6B562453DBA82DEC3 /* /Users/Sergey/Downloads/eyeLike-master/src/main.cpp */ = {isa = PBXBuildFile; fileRef = E065734922214EF4A419BDF9 /* /Users/Sergey/Downloads/eyeLike-master/src/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              C0D2C61B4C574CFB87F7F3D7 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              36E0976EA14F4A2197E5075D /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              2A7DC24D0EC54D6E8A2DB8C8 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              74624FBBF90342CC8B8503A9 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              3ED783EAA701496FB2013D10 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              13F539433C214DF6BCB5B89F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = A4371FF1EC174B889660F760 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = FEE8788655034A59B5F70F17;
+                     remoteInfo = ZERO_CHECK;
+              };
+              4A493FAEC27C4B3A87EDD306 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = A4371FF1EC174B889660F760 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D772CD002D8C4786A9526F67;
+                     remoteInfo = eyeLike;
+              };
+              C92FD7D0A8AF4BBCB3D84735 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = A4371FF1EC174B889660F760 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = FEE8788655034A59B5F70F17;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+D3259508CE5947F6B9A698DA /* /Users/Sergey/Downloads/eyeLike-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+BF1F851FBA8040C0836D423C /* /Users/Sergey/Downloads/eyeLike-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+03C52835A825465097D4436D /* /Users/Sergey/Downloads/eyeLike-master/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+C137CF7B75B44EED941BD4E5 /* /Users/Sergey/Downloads/eyeLike-master/src/constants.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "constants.h"; path = "src/constants.h"; sourceTree = SOURCE_ROOT; };
+0E9074A124BF49798AB7BA51 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCenter.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "findEyeCenter.cpp"; path = "src/findEyeCenter.cpp"; sourceTree = SOURCE_ROOT; };
+DCF13CAD789545E8BF6F3AD4 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCenter.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "findEyeCenter.h"; path = "src/findEyeCenter.h"; sourceTree = SOURCE_ROOT; };
+284503F1D7B84534BE4F636D /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCorner.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "findEyeCorner.cpp"; path = "src/findEyeCorner.cpp"; sourceTree = SOURCE_ROOT; };
+FB326DA3486240F981D8D352 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCorner.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "findEyeCorner.h"; path = "src/findEyeCorner.h"; sourceTree = SOURCE_ROOT; };
+814DAFADE5F0498DAB6EB6A2 /* /Users/Sergey/Downloads/eyeLike-master/src/helpers.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "helpers.cpp"; path = "src/helpers.cpp"; sourceTree = SOURCE_ROOT; };
+7714A206C8E1424DB3DC0B67 /* /Users/Sergey/Downloads/eyeLike-master/src/helpers.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "helpers.h"; path = "src/helpers.h"; sourceTree = SOURCE_ROOT; };
+E065734922214EF4A419BDF9 /* /Users/Sergey/Downloads/eyeLike-master/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "main.cpp"; path = "src/main.cpp"; sourceTree = SOURCE_ROOT; };
+4F7333B868954415BDC912CB /* eyeLike */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = eyeLike; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              F6D22D1F7A08432A9CB58677  = {
+                     isa = PBXGroup;
+                     children = (
+                            76865BB29521419FA402070E /* Sources */,
+                            9D42542C07A3424B810A9A4F /* Resources */,
+                            35943EE30F304B829AE49B8A /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              76865BB29521419FA402070E /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CC66BA4369944690909C6ACE /* ALL_BUILD */,
+                            9CABEF549112402FA49AE9A9 /* ZERO_CHECK */,
+                            E2D2FA393BC6471C9D7426E2 /* eyeLike */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              9D42542C07A3424B810A9A4F /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              CC66BA4369944690909C6ACE /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B087729CA4F544E8B208EB55 /* CMake Rules */,
+                            D3259508CE5947F6B9A698DA /* /Users/Sergey/Downloads/eyeLike-master/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              B087729CA4F544E8B208EB55 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              9CABEF549112402FA49AE9A9 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            473A7D9552BE4A8AA7C8FCD7 /* CMake Rules */,
+                            BF1F851FBA8040C0836D423C /* /Users/Sergey/Downloads/eyeLike-master/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              473A7D9552BE4A8AA7C8FCD7 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              E2D2FA393BC6471C9D7426E2 /* eyeLike */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9FE313933BCB484DAF71B829 /* Source Files */,
+                            0AB2BACEB4714B2188349BD3 /* Header Files */,
+                            03C52835A825465097D4436D /* /Users/Sergey/Downloads/eyeLike-master/src/CMakeLists.txt */,
+                     );
+                     name = eyeLike;
+                     sourceTree = "<group>";
+              };
+              9FE313933BCB484DAF71B829 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0E9074A124BF49798AB7BA51 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCenter.cpp */,
+                            284503F1D7B84534BE4F636D /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCorner.cpp */,
+                            814DAFADE5F0498DAB6EB6A2 /* /Users/Sergey/Downloads/eyeLike-master/src/helpers.cpp */,
+                            E065734922214EF4A419BDF9 /* /Users/Sergey/Downloads/eyeLike-master/src/main.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              0AB2BACEB4714B2188349BD3 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C137CF7B75B44EED941BD4E5 /* /Users/Sergey/Downloads/eyeLike-master/src/constants.h */,
+                            DCF13CAD789545E8BF6F3AD4 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCenter.h */,
+                            FB326DA3486240F981D8D352 /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCorner.h */,
+                            7714A206C8E1424DB3DC0B67 /* /Users/Sergey/Downloads/eyeLike-master/src/helpers.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              35943EE30F304B829AE49B8A /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4F7333B868954415BDC912CB /* eyeLike */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              D772CD002D8C4786A9526F67 /* eyeLike */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 19378F76A82A45259A875C65 /* Build configuration list for PBXNativeTarget "eyeLike" */;
+                     buildPhases = (
+                            AEBBB5207E3B4DD9AA7E5BB0 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            09B51D52C70E4451B4C60848 /* PBXTargetDependency */,
+                     );
+                     name = eyeLike;
+                     productName = eyeLike;
+                     productReference = 4F7333B868954415BDC912CB /* eyeLike */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              A4371FF1EC174B889660F760 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = C5D10D73A40648F390AC0B91 /* Build configuration list for PBXProject  "eyelike_project" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            36E0976EA14F4A2197E5075D /* Debug */,
+                            2A7DC24D0EC54D6E8A2DB8C8 /* Release */,
+                            74624FBBF90342CC8B8503A9 /* MinSizeRel */,
+                            3ED783EAA701496FB2013D10 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = F6D22D1F7A08432A9CB58677;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            7C1AC273F74C463F9E30ED77 /* ALL_BUILD */,
+                            FEE8788655034A59B5F70F17 /* ZERO_CHECK */,
+                            D772CD002D8C4786A9526F67 /* eyeLike */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              CA29549B1D7F40778532A252 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              66B0C5C828BB436389DD7CAC /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Sergey/Downloads/eyeLike-master/build -f /Users/Sergey/Downloads/eyeLike-master/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              5B0C13FB8D544C8C80BDCE2A /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              7DEFC62E2265447DAC705E32 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Sergey/Downloads/eyeLike-master/build -f /Users/Sergey/Downloads/eyeLike-master/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              AEBBB5207E3B4DD9AA7E5BB0 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            B3203106622B4901BF339EAB /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCenter.cpp */,
+                            B70728A8E6B64C719C49A34D /* /Users/Sergey/Downloads/eyeLike-master/src/findEyeCorner.cpp */,
+                            97E751F0161948ABA90C3EBA /* /Users/Sergey/Downloads/eyeLike-master/src/helpers.cpp */,
+                            7CB3E7C6B562453DBA82DEC3 /* /Users/Sergey/Downloads/eyeLike-master/src/main.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              05DF96C5656E42EFADCC0F65 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = FEE8788655034A59B5F70F17 /* ZERO_CHECK */;
+                     targetProxy = 13F539433C214DF6BCB5B89F /* PBXContainerItemProxy */;
+              };
+              2C14BC2347BC47E6B051DFB9 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D772CD002D8C4786A9526F67 /* eyeLike */;
+                     targetProxy = 4A493FAEC27C4B3A87EDD306 /* PBXContainerItemProxy */;
+              };
+              09B51D52C70E4451B4C60848 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = FEE8788655034A59B5F70F17 /* ZERO_CHECK */;
+                     targetProxy = C92FD7D0A8AF4BBCB3D84735 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              B206CC3A2A1D4F49AEF6BCBF /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build/build";
+                     };
+                     name = Debug;
+              };
+              F0A79E1A056345B68AA44879 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build/build";
+                     };
+                     name = Release;
+              };
+              1030F3D6AFC04E95B1DCC7C5 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build/build";
+                     };
+                     name = MinSizeRel;
+              };
+              8AF1A5F7AC294C918721AAF0 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              4BFFD357315F405EBEB1F9C9 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              D261DB6E94BB4E7CB58CD9D4 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              83FA94A74E9B4030BEC475CD /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              0BD0671E44514E1084D8CA98 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              DAFE5ADC459842C69B833E29 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              F3B1BF8BBC654261A6C64DCE /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              0DA54AB417904A63ADCBBB19 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              393AE46D7C56435080D3E808 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              3D67BA7A844D4150AEC324C7 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/Sergey/Downloads/eyeLike-master/build/bin/Debug";
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_core.a /usr/local/lib/libopencv_flann.a /usr/local/lib/libopencv_imgproc.a /usr/local/lib/libopencv_highgui.a /usr/local/lib/libopencv_features2d.a /usr/local/lib/libopencv_calib3d.a /usr/local/lib/libopencv_ml.a /usr/local/lib/libopencv_video.a /usr/local/lib/libopencv_legacy.a /usr/local/lib/libopencv_objdetect.a /usr/local/lib/libopencv_photo.a /usr/local/lib/libopencv_gpu.a /usr/local/lib/libopencv_videostab.a /usr/local/lib/libopencv_ts.a /usr/local/lib/libopencv_ocl.a /usr/local/lib/libopencv_superres.a /usr/local/lib/libopencv_nonfree.a /usr/local/lib/libopencv_stitching.a /usr/local/lib/libopencv_contrib.a /usr/local/lib/libopencv_nonfree.a /usr/local/lib/libopencv_gpu.a /usr/local/lib/libopencv_legacy.a /usr/local/lib/libopencv_photo.a /usr/local/lib/libopencv_ocl.a /usr/local/lib/libopencv_calib3d.a /usr/local/lib/libopencv_features2d.a /usr/local/lib/libopencv_flann.a /usr/local/lib/libopencv_ml.a /usr/local/lib/libopencv_video.a /usr/local/lib/libopencv_objdetect.a /usr/local/lib/libopencv_highgui.a /usr/local/lib/libopencv_imgproc.a /usr/local/lib/libopencv_core.a /usr/local/share/OpenCV/3rdparty/lib/liblibjpeg.a /usr/local/share/OpenCV/3rdparty/lib/liblibpng.a /usr/local/share/OpenCV/3rdparty/lib/liblibtiff.a /usr/local/share/OpenCV/3rdparty/lib/liblibjasper.a /usr/local/share/OpenCV/3rdparty/lib/libIlmImf.a /usr/local/share/OpenCV/3rdparty/lib/libzlib.a -framework Cocoa -framework QTKit -framework QuartzCore -framework AppKit -framework OpenCL -lstdc++";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = eyeLike;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Debug;
+              };
+              54AD5D43B6174E98A89FB7A4 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/Sergey/Downloads/eyeLike-master/build/bin/Release";
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_core.a /usr/local/lib/libopencv_flann.a /usr/local/lib/libopencv_imgproc.a /usr/local/lib/libopencv_highgui.a /usr/local/lib/libopencv_features2d.a /usr/local/lib/libopencv_calib3d.a /usr/local/lib/libopencv_ml.a /usr/local/lib/libopencv_video.a /usr/local/lib/libopencv_legacy.a /usr/local/lib/libopencv_objdetect.a /usr/local/lib/libopencv_photo.a /usr/local/lib/libopencv_gpu.a /usr/local/lib/libopencv_videostab.a /usr/local/lib/libopencv_ts.a /usr/local/lib/libopencv_ocl.a /usr/local/lib/libopencv_superres.a /usr/local/lib/libopencv_nonfree.a /usr/local/lib/libopencv_stitching.a /usr/local/lib/libopencv_contrib.a /usr/local/lib/libopencv_nonfree.a /usr/local/lib/libopencv_gpu.a /usr/local/lib/libopencv_legacy.a /usr/local/lib/libopencv_photo.a /usr/local/lib/libopencv_ocl.a /usr/local/lib/libopencv_calib3d.a /usr/local/lib/libopencv_features2d.a /usr/local/lib/libopencv_flann.a /usr/local/lib/libopencv_ml.a /usr/local/lib/libopencv_video.a /usr/local/lib/libopencv_objdetect.a /usr/local/lib/libopencv_highgui.a /usr/local/lib/libopencv_imgproc.a /usr/local/lib/libopencv_core.a /usr/local/share/OpenCV/3rdparty/lib/liblibjpeg.a /usr/local/share/OpenCV/3rdparty/lib/liblibpng.a /usr/local/share/OpenCV/3rdparty/lib/liblibtiff.a /usr/local/share/OpenCV/3rdparty/lib/liblibjasper.a /usr/local/share/OpenCV/3rdparty/lib/libIlmImf.a /usr/local/share/OpenCV/3rdparty/lib/libzlib.a -framework Cocoa -framework QTKit -framework QuartzCore -framework AppKit -framework OpenCL -lstdc++";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = eyeLike;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = Release;
+              };
+              059358C98A3644BA90B73A78 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/Sergey/Downloads/eyeLike-master/build/bin/MinSizeRel";
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_core.a /usr/local/lib/libopencv_flann.a /usr/local/lib/libopencv_imgproc.a /usr/local/lib/libopencv_highgui.a /usr/local/lib/libopencv_features2d.a /usr/local/lib/libopencv_calib3d.a /usr/local/lib/libopencv_ml.a /usr/local/lib/libopencv_video.a /usr/local/lib/libopencv_legacy.a /usr/local/lib/libopencv_objdetect.a /usr/local/lib/libopencv_photo.a /usr/local/lib/libopencv_gpu.a /usr/local/lib/libopencv_videostab.a /usr/local/lib/libopencv_ts.a /usr/local/lib/libopencv_ocl.a /usr/local/lib/libopencv_superres.a /usr/local/lib/libopencv_nonfree.a /usr/local/lib/libopencv_stitching.a /usr/local/lib/libopencv_contrib.a /usr/local/lib/libopencv_nonfree.a /usr/local/lib/libopencv_gpu.a /usr/local/lib/libopencv_legacy.a /usr/local/lib/libopencv_photo.a /usr/local/lib/libopencv_ocl.a /usr/local/lib/libopencv_calib3d.a /usr/local/lib/libopencv_features2d.a /usr/local/lib/libopencv_flann.a /usr/local/lib/libopencv_ml.a /usr/local/lib/libopencv_video.a /usr/local/lib/libopencv_objdetect.a /usr/local/lib/libopencv_highgui.a /usr/local/lib/libopencv_imgproc.a /usr/local/lib/libopencv_core.a /usr/local/share/OpenCV/3rdparty/lib/liblibjpeg.a /usr/local/share/OpenCV/3rdparty/lib/liblibpng.a /usr/local/share/OpenCV/3rdparty/lib/liblibtiff.a /usr/local/share/OpenCV/3rdparty/lib/liblibjasper.a /usr/local/share/OpenCV/3rdparty/lib/libIlmImf.a /usr/local/share/OpenCV/3rdparty/lib/libzlib.a -framework Cocoa -framework QTKit -framework QuartzCore -framework AppKit -framework OpenCL -lstdc++";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = eyeLike;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = MinSizeRel;
+              };
+              1FBE663BEEB547F2A4CC317D /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/Sergey/Downloads/eyeLike-master/build/bin/RelWithDebInfo";
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_core.a /usr/local/lib/libopencv_flann.a /usr/local/lib/libopencv_imgproc.a /usr/local/lib/libopencv_highgui.a /usr/local/lib/libopencv_features2d.a /usr/local/lib/libopencv_calib3d.a /usr/local/lib/libopencv_ml.a /usr/local/lib/libopencv_video.a /usr/local/lib/libopencv_legacy.a /usr/local/lib/libopencv_objdetect.a /usr/local/lib/libopencv_photo.a /usr/local/lib/libopencv_gpu.a /usr/local/lib/libopencv_videostab.a /usr/local/lib/libopencv_ts.a /usr/local/lib/libopencv_ocl.a /usr/local/lib/libopencv_superres.a /usr/local/lib/libopencv_nonfree.a /usr/local/lib/libopencv_stitching.a /usr/local/lib/libopencv_contrib.a /usr/local/lib/libopencv_nonfree.a /usr/local/lib/libopencv_gpu.a /usr/local/lib/libopencv_legacy.a /usr/local/lib/libopencv_photo.a /usr/local/lib/libopencv_ocl.a /usr/local/lib/libopencv_calib3d.a /usr/local/lib/libopencv_features2d.a /usr/local/lib/libopencv_flann.a /usr/local/lib/libopencv_ml.a /usr/local/lib/libopencv_video.a /usr/local/lib/libopencv_objdetect.a /usr/local/lib/libopencv_highgui.a /usr/local/lib/libopencv_imgproc.a /usr/local/lib/libopencv_core.a /usr/local/share/OpenCV/3rdparty/lib/liblibjpeg.a /usr/local/share/OpenCV/3rdparty/lib/liblibpng.a /usr/local/share/OpenCV/3rdparty/lib/liblibtiff.a /usr/local/share/OpenCV/3rdparty/lib/liblibjasper.a /usr/local/share/OpenCV/3rdparty/lib/libIlmImf.a /usr/local/share/OpenCV/3rdparty/lib/libzlib.a -framework Cocoa -framework QTKit -framework QuartzCore -framework AppKit -framework OpenCL -lstdc++";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = eyeLike;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Sergey/Downloads/eyeLike-master/build/src";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              C5D10D73A40648F390AC0B91 /* Build configuration list for PBXProject  "eyelike_project" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            B206CC3A2A1D4F49AEF6BCBF /* Debug */,
+                            F0A79E1A056345B68AA44879 /* Release */,
+                            1030F3D6AFC04E95B1DCC7C5 /* MinSizeRel */,
+                            8AF1A5F7AC294C918721AAF0 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              593CBAE3B2E548ACA4FC07EB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            4BFFD357315F405EBEB1F9C9 /* Debug */,
+                            D261DB6E94BB4E7CB58CD9D4 /* Release */,
+                            83FA94A74E9B4030BEC475CD /* MinSizeRel */,
+                            0BD0671E44514E1084D8CA98 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A44ECAABFD884162B657810C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            DAFE5ADC459842C69B833E29 /* Debug */,
+                            F3B1BF8BBC654261A6C64DCE /* Release */,
+                            0DA54AB417904A63ADCBBB19 /* MinSizeRel */,
+                            393AE46D7C56435080D3E808 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              19378F76A82A45259A875C65 /* Build configuration list for PBXNativeTarget "eyeLike" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3D67BA7A844D4150AEC324C7 /* Debug */,
+                            54AD5D43B6174E98A89FB7A4 /* Release */,
+                            059358C98A3644BA90B73A78 /* MinSizeRel */,
+                            1FBE663BEEB547F2A4CC317D /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = A4371FF1EC174B889660F760;
+}
